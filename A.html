@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 1 - A</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+<style>
+body{background: linear-gradient(45deg, white, #D1E4C4, white); overflow-x:hidden; height:600vh;}
+
+.dropbtn {
+  background: #D1E4C4;  padding: 10px;
+  font-size: 18px;  border: none; border-radius:5px;}
+.dropdown {  
+  position: relative;  display: inline-block;}
+.dropdown-content {
+  display: none;  position: absolute;
+  background: #D1E4C4; border-radius:6px;
+  box-shadow: 0px 8px 16px 0px grey;  z-index: 1;}
+.dropdown-content a {color: black;  padding: 10px;
+  text-decoration: none;  display: block;}
+.dropdown-content a:hover {background-color: #F1F7ED; border-radius:5px;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background: #F1F7ED; }
+
+
+
+
+.div{display:grid; grid-template-columns:900px; justify-content:center; cursor:pointer;}
+.div1{ text-align: left; font-size:30px; background:#F1F7ED; padding:10px; border-radius:6px; box-shadow: 1px 1px 1px grey;}
+.p{text-align:center; font-size:60px;}
+.wrapper{overflow-x:hidden;}
+
+img{width:400px;}
+
+.div2{display:grid; grid-template-columns:1fr 1fr;}
+.div3{display:grid; grid-template-columns:1fr 1fr 1fr;}
+.div4{display:grid; grid-template-columns:1fr 1fr 1fr 1fr;}
+.div5{display:grid; grid-template-columns:1fr 1fr 1fr 1fr 1fr;}
+
+
+
+@media only screen and (max-width: 1000px){
+
+.div{display:grid; grid-template-columns: 1fr;}
+.div1{font-size:25px;}
+.p{text-align:center; font-size:40px;}
+.wrapper{overflow-x:hidden;}
+
+img{width:250px;}
+
+.div2{display:grid; grid-template-columns: 1fr;}
+.div3{display:grid; grid-template-columns: 1fr;}
+.div4{display:grid; grid-template-columns: 1fr;}
+.div5{display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+<div class="dropdown">
+  <button class="dropbtn">Activities</button>
+  <div class="dropdown-content">
+    <a href="storybook.html" target="_blank">Storybook</a>
+    <a href="homework.html" target="_blank">Homework</a>
+    <a href="whiteboard.html" target="_blank">Whiteboard</a>
+    <a href="drawingboard.html" target="_blank">Drawing</a>
+    <a href="videos.html" target="_blank">Videos</a>
+    <a href="drag.html" target="_blank">Drag</a>
+  </div>
+</div>
+
+
+<div class="div">
+<div class="p">Alphabets</div><br>
+<div class="div1">
+
+<div class="div5">
+<div>Aa <br><hr> Ff <br><hr> Kk <br><hr> Pp <br><hr> Uu </div>
+<div>Bb <br><hr> Gg <br><hr> Ll <br><hr> Qq <br><hr> Vv </div>
+<div>Cc <br><hr> Hh <br><hr> Mm <br><hr> Rr <br><hr> Ww </div>
+<div>Dd <br><hr>  Ii<br><hr> Nn <br><hr> Ss <br><hr> Xx </div>
+<div>Ee <br><hr> Jj <br><hr> Oo <br><hr> Tt <br><hr> Yy Zz</div>
+</div>
+
+
+</div>
+</div><br>
+
+
+<div class="div">
+<div class="p">A a</div><br>
+<div class="div1">
+
+<div class="div2">
+
+<div>
+Apple<br>
+<img src="apple.png">
+</div>
+
+<div>Apricot <br>
+<img src="apricot.png"> </div>
+
+<div>Astronaut<br>
+<img src="astronaut.png"></div>
+
+<div>Airplane <br>
+<img src="airplane.png"> </div>
+
+<div>Ant<br>
+<img src="ant.png"></div>
+
+<div>Alligator <br>
+<img src="alligator.png"> </div>
+
+</div>
+
+
+</div>
+</div><br>
+
+
+
+
+
+
+</div>
+ 
+
+<script>
+  var sound1 = new Audio();
+  sound1.src = "alif.mp3";
+</script>
+
+</body>
+</html>
